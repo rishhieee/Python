@@ -1,0 +1,7 @@
+x=(input("Enter the signal colour: "))
+if(x=="green"):
+    print("You can go!")
+elif(x=="orange"):
+    print("Wait!")
+else:
+    print("Dont go")
