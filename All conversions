@@ -1,0 +1,13 @@
+x='23'
+x=str(x)
+print(x)
+x=float(x)
+print(x)
+x=str(x)
+print(x)
+x=list(x)
+print(x)
+x=tuple(x)
+print(x)
+x=set(x)
+print(x)
