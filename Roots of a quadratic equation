@@ -1,0 +1,10 @@
+import math
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+c=int(input("Enter c: "))
+if(pow(b,2)-4*a*c==0):
+    print("The roots are real and equal.")
+elif(pow(b,2)-4*a*c<0):
+    print("The roots are unequal and imaginary")
+else:
+    print("The roots are real and unequal.")
