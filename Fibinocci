@@ -1,0 +1,16 @@
+n=int(input("Enter n: "))
+a=0
+b=1
+sum=0
+count=0
+while(a>=0):
+    print(a)
+    sum+=a
+    c=a+b
+    a=b
+    b=c
+    count+=1
+    if(count==n):
+        break
+print('sum: ', sum)
+    
