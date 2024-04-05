@@ -1,0 +1,10 @@
+x=int(input("Enter the value of a: "))
+y=int(input("Enter the value of b: "))
+z=int(input("Enter the value of c: "))
+if(x>y):
+    if(x>z):
+        print(x," is greatest among three numbers.")
+    else:
+        print(z, " is greatest among three numbers.")
+else:
+    print(y, " is greatest among three numbers.")
