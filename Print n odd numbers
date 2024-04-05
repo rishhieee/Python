@@ -1,0 +1,12 @@
+i=1
+count=0
+n=int(input('Enter  range: '))
+while(i>=1):
+    if(i%2!=0):
+        print(i)
+        i+=1
+        count+=1
+    else:
+        i+=1
+    if(count==n):
+        break
