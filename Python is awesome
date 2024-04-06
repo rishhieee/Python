@@ -1,0 +1,4 @@
+def write(n):
+    x=str(input("Enter string: "))
+    print(x, n)
+write('awesome')
