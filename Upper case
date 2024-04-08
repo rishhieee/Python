@@ -1,0 +1,5 @@
+def cap(a):
+    b=a.upper()
+    return b
+print(cap("anjAli"))
+
