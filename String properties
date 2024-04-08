@@ -1,0 +1,12 @@
+a="this universe is magical"
+print(a[6])
+print(a[4:6])
+print(a[:5])
+print(a[4:])
+print(a+ "isn't it?")
+b="Yes"
+print(a+ b)
+print(a*5)
+print(" ",end=' ')
+print("m" in a)
+print("s" not in a)
