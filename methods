@@ -1,0 +1,12 @@
+a="tHis universe"
+print(a.lower())
+print(a.upper())
+print(a.capitalize())
+print(a.split())
+print(a.title())
+print(a.swapcase())
+b="/"
+print(b.join (a))
+print(a.center(3,"/"))
+print(a.replace("s","t"))
+print(a.count("universe"))
