@@ -1,0 +1,2 @@
+n=(input("Whats the number? : "))
+print("The required mirror number: ", n[::-1])
