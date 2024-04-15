@@ -1,0 +1,11 @@
+a=["rishi",23,45.8,90,"hello"]
+b=a.copy()
+print(b)
+print(a is b)
+b=a[:]
+print("Slicing: ", b)
+print(a is b)
+b=(90,"sravs",45.7)
+b=list(b)
+print(b)
+print(a is b)
