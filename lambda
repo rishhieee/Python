@@ -1,0 +1,2 @@
+x = lambda a,b,c,d,e: a+b-c*(d-e)
+print(x(12,13,12,15,10))
